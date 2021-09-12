@@ -1,0 +1,33 @@
+body {
+    background-size: cover;
+    height: 100%;
+  }
+
+  html{
+      height: 100%;
+  }
+  
+  .bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+  }
+
+  .outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+  }
+
+  .outer div{
+      width: 1053px;
+      font-size: 60px;
+      font-weight: 600;
+  }
